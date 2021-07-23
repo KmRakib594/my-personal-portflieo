@@ -10,11 +10,12 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    
 }
-.top-bannar{
+#top-bannar{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
 
 }
 .link-buttn{
@@ -32,8 +33,38 @@ section{
 .img-size{
     width: 420px;
 }
-.middel-bannar{
+#middel-bannar{
     background-image: url(././images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+}
+#card{
+    display: flex;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.Expriance-area{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    box-shadow: 20px 20px 50px gray;
+    padding-left: 20px;
+    border-radius: 6px;
+
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+    
+}
+#baby{
+    border-left: 8px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice:1;
+
+}
+h4{
+    font-weight: 400;
+    text-align: center;
 }
